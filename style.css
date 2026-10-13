@@ -58,3 +58,41 @@ a:focus-visible,button:focus-visible {outline-color:#a47690}
 .project-icon {color:#9e7891;text-shadow:none}
 .image-label {background:#ffffffcc;color:#76586b;border-color:#e9dbe2}
 .image-number {color:#76586b}
+
+
+/* ===========================
+   DOWNLOAD CV BUTTON
+=========================== */
+
+.cv-btn {
+    background: #F5E5EC;
+    color: #46343F;
+    border: 1px solid #E8CBD8;
+
+    padding: 11px 22px;
+    border-radius: 30px;
+
+    font-size: 12px;
+    font-weight: 600;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    transition: all 0.25s ease;
+}
+
+.cv-btn:hover {
+    background: #E8CBD8;
+    color: #46343F;
+    border-color: #D5AABB;
+
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(152, 120, 138, 0.15);
+}
+
+.cv-btn span {
+    font-size: 17px;
+    font-weight: 700;
+}
